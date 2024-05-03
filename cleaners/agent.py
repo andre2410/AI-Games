@@ -1,5 +1,4 @@
 __author__ = "Andrew Goh"
-__organization__ = "COSC343/AIML402, University of Otago"
 __email__ = "andrewgoh2000@gmail.com"
 
 import numpy as np

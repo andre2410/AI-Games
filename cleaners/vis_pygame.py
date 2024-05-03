@@ -32,7 +32,7 @@ class visualiser:
 
       self.screen = pygame.display.set_mode(resolution)
 
-      self.font = pygame.font.Font("arial.ttf", 14)
+      self.font = pygame.font.Font(None, 14)
 
       minMargin = 200
 
