@@ -158,13 +158,13 @@ class Player:
 
         else:
             if not os.path.exists(playerFile):
-                self.game.throwError("Error! Agent file '%s' not found" % self.playerFile, playerid)
+                self.game.throwError("Error! Agent file '%s' not found" % self.playerFile, player)
                 return
 
             if len(playerFile) > 3 and playerFile[-3:].lower() == '.py':
                 playerModule = playerFile[:-3]
             else:
-                self.game.throwError("Error! Agent file %s needs a '.py' extension" % self.playerFile, playerid)
+                self.game.throwError("Error! Agent file %s needs a '.py' extension" % self.playerFile, player)
                 return
 
             # Import agent file as module
